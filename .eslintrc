@@ -137,6 +137,10 @@
           [
             "@services",
             "./src/services/index"
+          ],
+          [
+            "@pages",
+            "./src/pages"
           ]
         ],
         "extensions": [

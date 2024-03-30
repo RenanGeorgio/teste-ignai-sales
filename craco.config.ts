@@ -45,6 +45,7 @@ const config: CracoConfig = {
       '@styles': path.resolve(__dirname, 'src/styles'),
       '@utils': path.resolve(__dirname, 'src/utils'),
       '@services': path.resolve(__dirname, 'src/services/index'),
+      '@pages': path.resolve(__dirname, 'src/pages'),
     },
     configure: (webpackConfig, { env }) => {
       if (env === 'production') {
