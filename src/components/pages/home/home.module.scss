@@ -1,0 +1,12 @@
+@import '@styles/common';
+
+.home {
+  &__container {
+    padding: rem(10px);
+    background-color: $color-background-dark;
+  }
+
+  &--bg-primary {
+    background-color: $color-primary;
+  }
+}
