@@ -9,18 +9,41 @@
       }
     ],
     "paths": {
-      "@images/*": ["./src/assets/images/*"],
-      "@icons/*": ["./src/assets/icons/*"],
-      "@components/*": ["./src/components/*"],
-      "@constants/*": ["./src/constants/*"],
-      "@contexts/*": ["./src/contexts/*"],
-      "@hooks/*": ["./src/hooks/*"],
-      "@styles/*": ["./src/styles/*"],
-      "@utils/*": ["./src/utils/*"]
+      "@images/*": [
+        "./src/assets/images/*"
+      ],
+      "@icons/*": [
+        "./src/assets/icons/*"
+      ],
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@constants/*": [
+        "./src/constants/*"
+      ],
+      "@contexts/*": [
+        "./src/contexts/*"
+      ],
+      "@hooks/*": [
+        "./src/hooks/*"
+      ],
+      "@styles/*": [
+        "./src/styles/*"
+      ],
+      "@utils/*": [
+        "./src/utils/*"
+      ],
+      "@services": [
+        "./src/services/index"
+      ]
     },
     "sourceMap": true,
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -35,6 +58,11 @@
     "noEmit": false,
     "jsx": "react-jsx"
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "build"]
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
 }
